@@ -1,0 +1,28 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+target/
+.m2/
+work/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Runtime and user-facing copies
+.data/
+.superpowers/
+outputs/
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/

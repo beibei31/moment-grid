@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: moment-grid-api
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.momentgrid: INFO
